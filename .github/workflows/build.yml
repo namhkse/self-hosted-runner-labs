@@ -10,7 +10,7 @@ permissions:
 jobs:
   build:
     name: Build Go application
-    runs-on: self-host
+    runs-on: self-hosted
     steps:
       - name: Check out source
         uses: actions/checkout@v4
